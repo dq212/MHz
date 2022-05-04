@@ -149,48 +149,48 @@ var nameSpace = O2KL || {};
                     rotationZ: 0.01,
                 }, "+=0.1"
             )
-            //     .to(
-            //         ["#screen", "#copy-2"],
-            //         0.4, {
-            //             transformPerspective: 400,
-            //             autoAlpha: 0,
-            //             force3D: true,
-            //             rotationZ: 0.01,
-            //         }, "+=2.75"
-            //     )
+            .to(
+                ["#screen", "#copy-2"],
+                0.4, {
+                    transformPerspective: 400,
+                    autoAlpha: 0,
+                    force3D: true,
+                    rotationZ: 0.01,
+                }, "+=2.75"
+            )
 
-        // .to(
-        //     ["#copy-3"],
-        //     0.2, {
-        //         transformPerspective: 400,
-        //         autoAlpha: 1,
-        //         force3D: true,
-        //         rotationZ: 0.01,
-        //         ease: Power2.easeIn,
-        //     }
-        // )
+        .to(
+            ["#copy-3"],
+            0.2, {
+                transformPerspective: 400,
+                autoAlpha: 1,
+                force3D: true,
+                rotationZ: 0.01,
+                ease: Power2.easeIn,
+            }
+        )
 
-        // .to(
-        //     ["#copy-4"],
-        //     0.3, {
-        //         transformPerspective: 400,
-        //         autoAlpha: 1,
-        //         force3D: true,
-        //         rotationZ: 0.01,
-        //         ease: Power2.easeIn,
-        //     }, "+=1"
-        // )
+        .to(
+            ["#copy-4"],
+            0.3, {
+                transformPerspective: 400,
+                autoAlpha: 1,
+                force3D: true,
+                rotationZ: 0.01,
+                ease: Power2.easeIn,
+            }, "+=1"
+        )
 
-        // .to(
-        //     ["#cta"],
-        //     0.3, {
-        //         transformPerspective: 400,
-        //         autoAlpha: 1,
-        //         force3D: true,
-        //         rotationZ: 0.01,
-        //         ease: Power2.easeIn,
-        //     }
-        // )
+        .to(
+            ["#cta"],
+            0.3, {
+                transformPerspective: 400,
+                autoAlpha: 1,
+                force3D: true,
+                rotationZ: 0.01,
+                ease: Power2.easeIn,
+            }
+        )
 
 
 

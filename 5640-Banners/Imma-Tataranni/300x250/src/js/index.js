@@ -35,7 +35,7 @@ var nameSpace = O2KL || {};
 
 
         TweenMax.set(
-            ["#copy-2", "#copy-3", "#copy-4", "#copy-5", "#screen", "#cta"], {
+            ["#copy-2", "#copy-3", "#copy-4", "#screen", "#cta"], {
                 x: 0,
                 autoAlpha: 0,
             }
@@ -181,7 +181,6 @@ var nameSpace = O2KL || {};
             }, "+=2"
         )
 
-
         .to(
             ["#copy-4"],
             0.3, {
@@ -204,11 +203,6 @@ var nameSpace = O2KL || {};
                 ease: Power2.easeIn,
             }
         )
-
-
-
-
-
 
     };
 
@@ -238,13 +232,5 @@ var nameSpace = O2KL || {};
     };
 })();
 
-var count = 1;
 
-function loop() {
-    if (count < 2) {
-        console.log(count);
-        count++;
-        O2KL.init();
-    }
-}
 //

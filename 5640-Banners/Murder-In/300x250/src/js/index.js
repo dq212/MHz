@@ -129,7 +129,7 @@ var nameSpace = O2KL || {};
                     autoAlpha: 0,
                     force3D: true,
                     rotationZ: 0.01,
-                }, "+=2"
+                }, "+=1.25"
             )
             .to(
                 ["#screen"],
@@ -142,12 +142,12 @@ var nameSpace = O2KL || {};
             )
             .to(
                 ["#copy-2"],
-                0.6, {
+                0.3, {
                     transformPerspective: 400,
                     autoAlpha: 1,
                     force3D: true,
                     rotationZ: 0.01,
-                }, "+=0.1"
+                }, "-=0.3"
             )
             .to(
                 ["#screen", "#copy-2"],

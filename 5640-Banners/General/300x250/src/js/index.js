@@ -130,7 +130,7 @@ var nameSpace = O2KL || {};
                 autoAlpha: 1,
                 force3D: true,
                 rotationZ: 0.01,
-            }, "+=1"
+            }, "+=.5"
         )
 
         .to(
@@ -141,11 +141,11 @@ var nameSpace = O2KL || {};
                 force3D: true,
                 rotationZ: 0.01,
                 ease: Power2.easeIn,
-            }, "+=1"
+            }, "+=.5"
         )
 
         .staggerTo(
-            ["#stamp-1", "#stamp-2", "#stamp-4", "#stamp-3", ],
+            ["#stamp-1", "#stamp-2", "#stamp-4", "#stamp-3"],
             0.1, {
                 transformPerspective: 400,
                 autoAlpha: 1,
@@ -153,7 +153,7 @@ var nameSpace = O2KL || {};
                 rotationZ: 0.01,
                 ease: Power2.easeIn,
 
-            }, "0.2", "+=1"
+            }, "0.2", "+=.5"
         )
 
         .to(
@@ -164,7 +164,7 @@ var nameSpace = O2KL || {};
                 force3D: true,
                 rotationZ: 0.01,
                 ease: Power2.easeIn,
-            }, "+=2.25"
+            }, "+=1.5"
         )
 
 
@@ -186,7 +186,7 @@ var nameSpace = O2KL || {};
                     force3D: true,
                     rotationZ: 0.01,
                     ease: Power2.easeIn,
-                }, "+=2"
+                }, "+=1.5"
             )
 
 

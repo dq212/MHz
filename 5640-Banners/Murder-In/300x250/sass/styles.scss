@@ -75,6 +75,7 @@ $height: 250px;
 
 #copy-2 {
     @extend .abs-pos;
+    top: -11px;
 }
 
 #copy-2 svg {
@@ -83,6 +84,7 @@ $height: 250px;
 
 #copy-3 {
     @extend .abs-pos;
+    top: -8px;
 }
 
 #copy-4 {

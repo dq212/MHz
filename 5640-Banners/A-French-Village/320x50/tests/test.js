@@ -3,7 +3,7 @@ var imageSize = require("image-size");
 
 describe("zipfile", function() {
     it("should be under /Users/dq212/Documents/CLIENTS/o2kl/MHz/Banners/5640-Banners/A-French-Village/320x50/node_modules/.bin/resize-bannekb", function() {
-        var zip = fs.statSync("../HTML/5640_MHz_General_Banner_320x50.zip");
+        var zip = fs.statSync("../HTML/5640_MHz_A-French-Village_Banner_320x50.zip");
         var fileSizeInKB = zip["size"] / 1000;
         expect(fileSizeInKB).not.toBeGreaterThan(
             150,

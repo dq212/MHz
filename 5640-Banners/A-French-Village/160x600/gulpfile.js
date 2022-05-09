@@ -185,7 +185,7 @@ gulp.task("copy", ["clean", "cleanSprites"], function() {
 gulp.task("copyStatic", function() {
     gulp
         .src("./src/img/static.gif")
-        .pipe(rename("5640_MHz_General_Banner_160x600.gif"))
+        .pipe(rename("5640_MHz_A-French-Village_Banner_160x600.gif"))
         .pipe(gulp.dest("../STATICS/"));
 });
 
@@ -251,7 +251,7 @@ gulp.task(
     function() {
         return gulp
             .src(dist + "/*")
-            .pipe(zip("5640_MHz_General_Banner_160x600.zip"))
+            .pipe(zip("5640_MHz_A-French-Village_Banner_160x600.zip"))
             .pipe(gulp.dest("../HTML/"));
     }
 );

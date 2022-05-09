@@ -62,7 +62,7 @@ var nameSpace = O2KL || {};
             TweenMax.to("#cta", 0.1, {
                 scale: 1.05,
                 y: 0,
-                transformOrigin: "25% 90%",
+                transformOrigin: "90% 85%",
                 rotationZ: 0.01,
                 force3D: true,
                 rotationZ: 0.01,

@@ -71,6 +71,7 @@ $height: 600px;
 
 #copy-1 {
     @extend .abs-pos;
+    top: -65px;
 }
 
 #copy-1 svg {

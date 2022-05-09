@@ -17,11 +17,11 @@ describe("static image", function() {
         var dimensions = imageSize("src/img/static.gif");
 
         expect(dimensions.width).toBe(
-            300,
+            336,
             "\nIncorrect width on the static image. It should be 336px wide"
         );
         expect(dimensions.height).toBe(
-            600,
+            280,
             "\nIncorrect height on the static image. It should be 280px tall"
         );
     });

@@ -184,8 +184,8 @@ gulp.task("copy", ["clean", "cleanSprites"], function() {
 
 gulp.task("copyStatic", function() {
     gulp
-        .src("./src/img/static.gif")
-        .pipe(rename("5640_MHz_General_Banner_970x250.gif"))
+        .src("./src/img/static.jpg")
+        .pipe(rename("5640_MHz_General_Banner_970x250.jpg"))
         .pipe(gulp.dest("../STATICS/"));
 });
 

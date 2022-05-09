@@ -76,6 +76,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid #000000; }
 
+#copy-1 {
+  top: -12px; }
+
 #copy-2 {
   top: -11px; }
 

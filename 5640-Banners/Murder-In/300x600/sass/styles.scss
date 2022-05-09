@@ -71,6 +71,7 @@ $height: 600px;
 
 #copy-1 {
     @extend .abs-pos;
+    top: -12px;
 }
 
 #copy-2 {

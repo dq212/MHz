@@ -76,5 +76,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid #000000; }
 
+#copy-2 {
+  top: 3px; }
+
 #copy-2 svg {
   filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.4)); }

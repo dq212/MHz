@@ -14,7 +14,7 @@ describe("zipfile", function() {
 
 describe("static image", function() {
     it("should match dimensions of the creative", function() {
-        var dimensions = imageSize("src/img/static.gif");
+        var dimensions = imageSize("src/img/static.jpg");
 
         expect(dimensions.width).toBe(
             970,
@@ -59,7 +59,7 @@ describe("built package", function() {
                 if (
                     count(html, assets[i]) < 1 &&
                     assets[i] !== ".DS_Store" &&
-                    assets[i] !== "static.gif"
+                    assets[i] !== "static.jpg"
                 ) {
                     //notifies the user in the console which assets are not used
                     // console.log(assets[i]);

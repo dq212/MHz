@@ -59,7 +59,7 @@ describe("built package", function() {
                 if (
                     count(html, assets[i]) < 1 &&
                     assets[i] !== ".DS_Store" &&
-                    assets[i] !== "static.jpg"
+                    assets[i] !== "static.gif"
                 ) {
                     //notifies the user in the console which assets are not used
                     // console.log(assets[i]);
